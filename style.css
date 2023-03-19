@@ -1,0 +1,156 @@
+body{
+    padding:0;
+    margin:0;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color:#bfe4f7;
+    display:flex;
+    place-items:center;
+    place-content:center;
+}
+.body{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 18px 20px 0px #abdcf6;
+}
+.dot{
+    background-color: #2e2e2e;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 75px;
+}
+.lens-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #364254;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    z-index:1;
+}
+.lens-2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius:50%;
+    width:250px;
+    height:250px;
+    background-color:#2a313c;
+    z-index:2;
+
+
+}
+.lens-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #323f4c;
+    z-index:3;
+
+}
+.lens-4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    background-color:#2a323f;
+    width:170px;
+    height:170px;
+    z-index:4;
+
+}
+.lens-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    background-color:#232b35;
+    width:110px;
+    height:110px;
+    z-index:5;
+
+}
+.reflection{
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #4f5a6b96;
+    top: 192px;
+    left: 435px;
+    z-index:6;
+
+}
+.ref-effect{
+    position:absolute;
+    width:270px;
+    height:270px;
+    border-radius:50%;
+    background:linear-gradient(to right , #ffffff24 50% , transparent 50%);
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%)  rotate(45deg);
+    z-index:7;
+    
+}
+.colors{
+    position: absolute;
+    width: calc(50% - 125px);
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index:0;
+}
+
+.color1{
+    background-color:#a4316e; 
+    height:15px;
+}
+.color2{
+    background-color:#d1863b; 
+    height:15px;
+}
+.color3{
+    background-color:#f1bf4c; 
+    height:15px;
+}
+.color4{
+    background-color:#d9de79; 
+    height:15px;
+}
+.color5{
+    background-color:#5e9143; 
+    height:15px;
+}
+.color6{
+    background-color:#467fb3; 
+    height:15px;
+}
+.button{
+    position: absolute;
+    top: 260px;
+    left: 515px;
+    width: 80px;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #96354d;
+}
+
